@@ -20,7 +20,6 @@
   },
   "scripts": {
     "start": "serve build -s -n -L -p $PORT",
-    "postinstall": "npm run build",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
