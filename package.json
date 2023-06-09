@@ -19,7 +19,7 @@
     }
   },
   "scripts": {
-    "start": "serve dist -s -n -L -p $PORT",
+    "start": "serve build -s -n -L -p 3000",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
